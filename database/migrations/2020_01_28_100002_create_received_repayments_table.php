@@ -18,6 +18,9 @@ class CreateReceivedRepaymentsTable extends Migration
             $table->unsignedInteger('loan_id');
 
             // TODO: Add missing columns here
+            $table->float('amount');
+            $table->string('currency_code');
+            $table->timestamp('received_at');
 
             $table->timestamps();
             $table->softDeletes();
