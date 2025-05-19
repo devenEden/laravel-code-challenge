@@ -44,7 +44,7 @@ class LoanServiceTest extends TestCase
             'status' => Loan::STATUS_DUE,
         ]);
         /**
-         * THE VALUES WERE PREVIOUSLY 1666 +  1666 + 1667 which does not total to 500 therefore this test would contradict its self if the changes weren't made
+         * THE VALUES WERE PREVIOUSLY 1666 +  1666 + 1667 which does not total to 5000 therefore this test would contradict its self if the changes weren't made
          */
 
         // Asserting Scheduled Repayments
